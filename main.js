@@ -182,7 +182,7 @@ function fireProjectile(playerX, playerY, playerDirX, playerDirY) {
       var enemy = {
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        speed: 0.1,
+        speed: randSpeed,
         dirX: 0,
         dirY: 0,
         draw: function() {
